@@ -1,0 +1,20 @@
+.cart-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+
+.cart-container img{
+    width: 300px;
+    border-radius: 10px;
+    margin: 60px;
+}
+
+.review-container{
+    margin: 60px;
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 10px;
+}
