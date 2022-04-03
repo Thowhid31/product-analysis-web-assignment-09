@@ -1,0 +1,24 @@
+.whole-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+}
+
+.title-container{
+    color: wheat;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav-container a{
+    color: wheat;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+
+.nav-container nav{
+    color: wheat;
+}

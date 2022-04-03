@@ -1,0 +1,17 @@
+[
+        { 
+            "id": 1, "name": "Wimpy Kid V-01", "ratings": 5.0, "img": "https://static.wikia.nocookie.net/doawk/images/d/d8/9781419729454-350x522.jpg", "price": "$100"
+        },
+        { 
+            "id": 2, "name": "Wimpy Kid V-02", "ratings": 4.0, "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360095964l/1809465._SX318_.jpg", "price": "$101" 
+        },
+        { 
+            "id": 3, "name": "Wimpy Kid V-03", "ratings": 4.5, "img": "https://images-na.ssl-images-amazon.com/images/I/51xlOX2o9-L._SX321_BO1,204,203,200_.jpg", "price": "$102" 
+        },
+        { 
+            "id": 4, "name": "Wimpy Kid V-04", "ratings": 5.0, "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388178896l/6578293.jpg", "price": "$103" 
+        },
+        { 
+            "id": 5, "name": "Wimpy Kid V-05", "ratings": 4.5, "img": "https://kbimages1-a.akamaihd.net/38c32f36-2484-41c3-94b0-1644714daac6/1200/1200/False/diary-of-a-wimpy-kid-the-ugly-truth-book-5.jpg", "price": "$104" 
+        }
+    ]
