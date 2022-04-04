@@ -6,7 +6,7 @@ import './Home.css'
 
 
 const Home = () => {
-    const [books, setBooks] = useBooks()
+    const [books] = useBooks()
     return (
         <div>
             <div className='home-container'>
