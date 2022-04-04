@@ -12,6 +12,7 @@ const Home = () => {
             <div className='home-container'>
                 <div className='h1-container-home'>
                     <h1>Explore Our <br></br> Wimpy Kid<br></br>Collection...</h1>
+                    <p style={{'color': 'black'}}>Wimpy Kid is an international best seller book, <br></br>which is very popular to our kid and also young people. <br></br>Book lovers Always want this types of book...</p>
                 </div>
                 <div className='home-img'>
                     <img src="https://static.wikia.nocookie.net/doawk/images/d/d8/9781419729454-350x522.jpg" alt="" />

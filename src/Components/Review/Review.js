@@ -3,7 +3,7 @@ import Book from '../Book/Book';
 import useBooks from '../hooks/useBooks';
 
 const Review = () => {
-    const [books, setBooks] = useBooks()
+    const [books] = useBooks()
     return (
         <div>
             <p style={{'font-size': '50px'}}>Here All Review of Our Books!</p>
