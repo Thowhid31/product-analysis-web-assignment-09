@@ -16,3 +16,18 @@
 .home-img img{
     width: 400px;
 }
+
+.review-btn{
+    color: yellow;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.review-btn a{
+    text-decoration: none;
+    color: yellow;
+
+}
