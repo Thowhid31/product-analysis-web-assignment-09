@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Review from '../Review/Review';
+import Book from '../Book/Book';
+import useBooks from '../hooks/useBooks';
 import './Home.css'
 
+
 const Home = () => {
+    const [books, setBooks] = useBooks()
     return (
         <div>
             <div className='home-container'>
@@ -16,11 +19,15 @@ const Home = () => {
             </div>
             <div>
                 <h2>Here some reviews of our Customers</h2>
-                
+                {
+                    books.slice(0, 3).map(book => <Book
+                        key={book.id}
+                        book={book}></Book>)
+                }
             </div>
             <div>
                 <button className='review-btn'>
-                    <Link to='/review'>See More</Link>
+                    <Link to='/review'>See All Reviews</Link>
                 </button>
             </div>
         </div>
